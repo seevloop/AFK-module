@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 class AFKMod(loader.Module):
     """Provides a message saying that you are unavailable"""
     strings = {"name": "AFK",
-               "gone": "<b>AFK moment..</b>",
+               "gone": "<b>AFK moment..\nПричина:</b> <i>{}</i>",
                "back": "<b>Я больше не в афк.</b>",
                "afk": "<b>Я сейчас не в сети..(начал {} назад).</b>",
                "afk_reason": "<b>Я сейчас не в сети.. (начал {} назад).\nПричина:</b> <i>{}</i>"}
